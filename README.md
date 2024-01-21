@@ -49,11 +49,17 @@ b) What values will we need to know about the structure for our queue to functio
 
 2. Based on what we know about linked lists, design a list data structure that allows us to add (insert) or remove (delete) values at a given location in the list (instead of the top of a stack or the front or back of a queue):
 
-  According to the reaserch I did, to have a linked list where you can add and remove values at any given location of the list, it is best to use a double-linked list instead of a linked list like the one described on Figure 1.1. That is because with a linked list you can only move forward, while with the double-linked list you can move through the values forward and backwards. A double-linked list looks like the image below:
+  According to the reaserch I did, to have a linked list where you can add and remove values at any given location of the list, it is best to use a double-linked list instead of a linked list like the one described on Figure 1.1. That is because with a linked list you can only move forward, while with the double-linked list you can move through the values forward and backwards. A double-linked list every list element contains two links, one that points to the previous element and another that points to the forward element, it looks like the image below:
   
 ![image](https://github.com/dudareolon/CS260_Assignment_02/assets/102680672/4a5ad5d9-241c-4b5d-ad2a-b61d79b3ea25)
 Figure 1.4
 
 a) What functions are we likely to need for a list to function like this?
+
+For the list to function we need three basic functions:
+
+  - Add an element:
+  - Remove an element:
+  - Print list: 
 
 b) What values will we need to know about the structure for our list to function properly?
