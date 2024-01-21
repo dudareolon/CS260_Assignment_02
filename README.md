@@ -4,6 +4,18 @@
 There will not be any code implementation on this week's assignment!
 
 1. Based on what we know about linked lists, stacks, and queues, design a queue data structure:
+
+First, let's define what is a linked list, a stack, and a queue so that the concepts are clear before we design the code implementation.
+
+Linked list: A linked list is a list that consists of nodes. Each node contains a data element and a pointer that points to the next node. See on image below:
+![image](https://github.com/dudareolon/CS260_Assignment_02/assets/102680672/d80516db-57cb-48ac-8c32-4600e1d36d4e)
+
+
+
+
+Stack:
+Queue:
+
   - What functions are we likely to need for a queue to function like the one discussed in class?
   - What values will we need to know about the structure for our queue to function properly?
 
