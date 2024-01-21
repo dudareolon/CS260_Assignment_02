@@ -8,7 +8,8 @@ There will not be any code implementation on this week's assignment!
 First, let's define what is a linked list, a stack, and a queue so that the concepts are clear before we design the code implementation.
 
 Linked list: A linked list is a list that consists of nodes. Each node contains a data element and a pointer that points to the next node. See on image below:
-![image](https://github.com/dudareolon/CS260_Assignment_02/assets/102680672/1146ef0d-df21-46a3-870f-658be6fc55ff)
+![image](https://github.com/dudareolon/CS260_Assignment_02/assets/102680672/51fafbbd-a87c-47e1-85c3-6b020261afb0)
+
 
 
 Stack:
