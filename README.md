@@ -21,9 +21,12 @@ Queue: A queue is a linear data structure that does the opposite as the Stack. I
 1. Based on what we know about linked lists, stacks, and queues, design a queue data structure:
 
 a) What functions are we likely to need for a queue to function like the one discussed in class?
+
 The two main functions we need for the queue to function are:
-  - Pop():
-  - Push(Value):
+
+  - Pop(): This function will remove the element that is in the front of the queue. To do this, the function will find the value that the rear pointer is pointing to and assign this value to a variable that can be used outside of the function. The function will also reallocate the rear pointer to point to the next node making this 'next node' the end of the queue. Lastly it will also decrease the size of the queue by one.
+
+  - Push(Value): This function will insert the Value defined in the paranthesis at the back/rear of the queue. To do this, the function will allocate the variable Value to the slot pointed by the rear pointer, then it will increase the size of the queue by one and reallocate the rear pointer so that it will point to a new and empty node.
 
 Although the two functions above are enough, to upgrade my code, I would also add these functions:
   - Size():
