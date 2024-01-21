@@ -23,6 +23,7 @@ a) What functions are we likely to need for a queue to function like the one dis
 The two main functions we need for the queue to function are:
   - Pop():
   - Push(Value):
+
 Although the two functions above are enough, to upgrade my code, I would also add these functions:
   - Size():
   - Empty():
