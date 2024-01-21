@@ -41,6 +41,8 @@ Although the two functions above are enough, to upgrade my code, I would also ad
 
 b) What values will we need to know about the structure for our queue to function properly?
 
+  We would need to know the values that the rear and the front pointers are pointing to, but it would also be great to know the address of this values. If we know the address of the rear and the front values, then it is possible to use either the front or the rear pointer to move through the queue and print out all the values that are in the queue. We would need to know the size of the queue and have this variable be correctly updated every time the functions pop and push run. Lastly, we would also need to know if there is a capacity limit to the size of the queue so that we can update the function push to display an error message once the capacity is reached. 
+
 2. Based on what we know about linked lists, design a list data structure that allows us to add (insert) or remove (delete) values at a given location in the list (instead of the top of a stack or the front or back of a queue):
   - What functions are we likely to need for a list to function like this?
   - What values will we need to know about the structure for our list to function properly?**
