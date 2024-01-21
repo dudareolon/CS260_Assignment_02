@@ -3,7 +3,7 @@
 
 There will not be any code implementation on this week's assignment!
 
-**1. Based on what we know about linked lists, stacks, and queues, design a queue data structure:
+1. Based on what we know about linked lists, stacks, and queues, design a queue data structure:
   - What functions are we likely to need for a queue to function like the one discussed in class?
   - What values will we need to know about the structure for our queue to function properly?
 
