@@ -32,7 +32,7 @@ Although the two functions above are enough, to upgrade my code, I would also ad
 
   - Size(): This functions returns the number of elements that are in the queue, in other words the size of the queue. Size will be variable that is started at 0, if the function pop is called the size decreases by one and if the function push is called the size increases by one.  
     
-  - Empty(): 
+  - Empty(): This function runs a boolean relation that returns true in case the size of the queue is zero, meaning that it is empty. 
     
   - Front(): This function returns the value that the front pointer is pointing to, which would be the value removed from the queue if the pop function is called.  
     
