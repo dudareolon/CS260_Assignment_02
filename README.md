@@ -19,6 +19,7 @@ Queue: A queue is a linear data structure that does the opposite as the Stack. I
 ![image](https://github.com/dudareolon/CS260_Assignment_02/assets/102680672/aba1ab07-46a4-4f6f-a439-af2b7e8680e9)
 
 1. Based on what we know about linked lists, stacks, and queues, design a queue data structure:
+
 a) What functions are we likely to need for a queue to function like the one discussed in class?
 The two main functions we need for the queue to function are:
   - Pop():
