@@ -14,6 +14,7 @@ Figure 1.1
 Stack: A stack is collection of elements that opperates in the Last In, First Out (LIFO) principle. Which means that the last element that was pushed into the stack will be the first element that will be popped out of the stack. Stacks can make use of pointers to indicate the bottom of the stack and the top of the stack.
 
 ![image](https://github.com/dudareolon/CS260_Assignment_02/assets/102680672/294ab757-fc1b-4c62-b328-028de4635516)
+
 Figure 1.2
 
 Queue: A queue is a linear data structure that does the opposite as the Stack. It is also a collection of elements but they opperate under the First In, First Out (FIFO) principle instead of opperating under the LIFO principle like the stack. First In, First Out means that the first element added to the queue is the first one to be removed. A queue can also make use of pointers to indicate the rear and the front of the queue. 
