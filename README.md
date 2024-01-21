@@ -26,13 +26,18 @@ The two main functions we need for the queue to function are:
 
   - Pop(): This function will remove the element that is in the front of the queue. To do this, the function will find the value that the rear pointer is pointing to and assign this value to a variable that can be used outside of the function. The function will also reallocate the rear pointer to point to the next node making this 'next node' the end of the queue. Lastly it will also decrease the size of the queue by one.
 
-  - Push(Value): This function will insert the Value defined in the paranthesis at the back/rear of the queue. To do this, the function will allocate the variable Value to the slot pointed by the rear pointer, then it will increase the size of the queue by one and reallocate the rear pointer so that it will point to a new and empty node.
+  - Push(Value): This function will insert the Value defined in the paranthesis at the rear of the queue. To do this, the function will allocate the variable Value to the slot pointed by the rear pointer, then it will increase the size of the queue by one and reallocate the rear pointer so that it will point to a new and empty node.
 
 Although the two functions above are enough, to upgrade my code, I would also add these functions:
-  - Size():
-  - Empty():
-  - Front():
-  - Rear():
+
+  - Size(): This functions returns the number of elements that are in the queue, in other words the size of the queue. Size will be variable that is started at 0, if the function pop is called the size decreases by one and if the function push is called the size increases by one.  
+    
+  - Empty(): 
+    
+  - Front(): This function returns the value that the front pointer is pointing to, which would be the value removed from the queue if the pop function is called.  
+    
+  - Rear(): This function returns the value that the rear pointer is pointing to
+    
 
 b) What values will we need to know about the structure for our queue to function properly?
 
