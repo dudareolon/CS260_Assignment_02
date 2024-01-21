@@ -10,9 +10,10 @@ First, let's define what is a linked list, a stack, and a queue so that the conc
 Linked list: A linked list is a list that consists of nodes. Each node contains a data element and a pointer that points to the next node. See on image below:
 ![image](https://github.com/dudareolon/CS260_Assignment_02/assets/102680672/51fafbbd-a87c-47e1-85c3-6b020261afb0)
 
+Stack: A stack is collection of elements that opperates in the Last In First Out (LIFO) principle. Which means that the last element that was pushed into the stack will be the first element that will be popped out of the stack. 
+![image](https://github.com/dudareolon/CS260_Assignment_02/assets/102680672/294ab757-fc1b-4c62-b328-028de4635516)
 
 
-Stack:
 Queue:
 
   - What functions are we likely to need for a queue to function like the one discussed in class?
