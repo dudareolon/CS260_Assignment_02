@@ -15,11 +15,21 @@ Stack: A stack is collection of elements that opperates in the Last In, First Ou
 ![image](https://github.com/dudareolon/CS260_Assignment_02/assets/102680672/294ab757-fc1b-4c62-b328-028de4635516)
 
 Queue: A queue is a linear data structure that does the opposite as the Stack. It is also a collection of elements but they opperate under the First In, First Out (FIFO) principle instead of opperating under the LIFO principle like the stack. First In, First Out means that the first element added to the queue is the first one to be removed. A queue can also make use of pointers to indicate the rear and the front of the queue. 
+
 ![image](https://github.com/dudareolon/CS260_Assignment_02/assets/102680672/aba1ab07-46a4-4f6f-a439-af2b7e8680e9)
 
+1. Based on what we know about linked lists, stacks, and queues, design a queue data structure:
+a) What functions are we likely to need for a queue to function like the one discussed in class?
+The two main functions we need for the queue to function are:
+  - Pop():
+  - Push(Value):
+Although the two functions above are enough, to upgrade my code, I would also add these functions:
+  - Size():
+  - Empty():
+  - Front():
+  - Rear():
 
-  - What functions are we likely to need for a queue to function like the one discussed in class?
-  - What values will we need to know about the structure for our queue to function properly?
+b) What values will we need to know about the structure for our queue to function properly?
 
 2. Based on what we know about linked lists, design a list data structure that allows us to add (insert) or remove (delete) values at a given location in the list (instead of the top of a stack or the front or back of a queue):
   - What functions are we likely to need for a list to function like this?
