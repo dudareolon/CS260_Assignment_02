@@ -58,8 +58,10 @@ a) What functions are we likely to need for a list to function like this?
 
 For the list to function we need three basic functions:
 
-  - Add an element:
-  - Remove an element:
-  - Print list: 
+  - Add an element: This function will insert a value at the given location in the list. This function will have as parameters the value you want to insert and the index, which is the spot in the list you want to insert the value at. To add a new element to the list, first a new node will have to be created with the value inserted in the parameters. Then a loop will run through the entire list until it finds where the index inserted in the parameters matches the index in the list, if that never happens is because the list does not have that index number and an error message will be displayed. If however, the index in the list matches the index in the function parameters, then the forward link of the node to the left of it will be replaced with the link to the new node, and the backward link of the node to the right of it will be also replaced with the link to the new node. Lastly, it will increase the global variable that indicates the size of the list by one. 
+
+  - Remove an element: This function will delete a value at the given location in the list. This function will have as parameter the index, which is the spot in the list you want to delete. For this function to work it will also run a loop through all the nodes of the list, until it finds the node that is located at the correct index. When it finds that node, the function will extract it by setting it equal to a variable that can be used outside of the function ( for example the variable 'removed_value'), by deleting its backward and forward link addresses, and then by copying the backward adress into the node to the right of it and the forward addresses into the node to the left of it. Lastly, it will decrease the global variable that indicates the size of the list by one. 
+    
+  - Print list: This function will display all the values in the list. This will be an important function in the process of troubleshooting. It will run a loop from index starting at 0 until the index is equal to the size of the list printing out the value of that index number for each time the loop runs through. 
 
 b) What values will we need to know about the structure for our list to function properly?
