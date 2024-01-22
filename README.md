@@ -66,7 +66,7 @@ For the list to function we need three basic functions:
 
 b) What values will we need to know about the structure for our list to function properly?
 
-  - What is the head of the list
-  - The index of each node of the list
-  - The data, backward link, and forward link of each node in the list
+  - What is the head of the list;
+  - The index of each node of the list;
+  - The data, backward link, and forward link of each node in the list;
   - The entire size of the list, in other words how many nodes there are in the list. This varaible will be updated every time the functions to add or remove an element are used.  
